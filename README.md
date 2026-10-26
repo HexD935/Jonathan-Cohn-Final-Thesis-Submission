@@ -39,5 +39,5 @@ MATLAB and Simulink with Simscape.
 
 ## Notes
 
-- Step 10 Part 2 uses Simscape's Backward Euler local solver (step 1/8192 s), which adds a small, predictable series resistance to every inductor. The script reports errors against both the nominal component values and the values the solver actually simulates (see Section 3.10.4).
+- Step 10 Part 2 uses Simulink's Backward Euler local solver (step 1/8192 s), which adds a small, predictable series resistance to every inductor. The script reports errors against both the nominal component values and the values the solver actually simulates (see Section 3.10.4).
 - All results come from noise-free simulations; no measured grid data is used.
